@@ -5,7 +5,7 @@
 Download and import companies.json from [here](https://github.com/asjadsaboor/mongodb-json-files/blob/master/datasets/companies.json)
 
 ```
-c:\> mongoimport companies.json -d companyData - c companies --drop 
+mongoimport --db put_your_name --collection companies --authenticationDatabase admin --username admin --password db_password --drop --file companies.json --jsonArray
 ```
 
 1. Write a query to find any company by `name` and note down its execution time along with the execution plan.
