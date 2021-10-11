@@ -9,7 +9,7 @@ In this lesson will will first practise aggregation pipeline and mapReduce.
 
 
 ```
-mongoimport --db put_your_name_here --collection universities --authenticationDatabase admin --username admin --password saxophone --drop --file universities.json --jsonArray
+mongoimport --db put_your_name_here --collection universities --authenticationDatabase admin --username admin --password dbpassword --drop --file universities.json --jsonArray
 ```
 
 1. Write an aggregation query to match universities who are in Salmanaca, Spain.
