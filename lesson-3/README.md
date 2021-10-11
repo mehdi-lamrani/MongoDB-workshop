@@ -5,8 +5,12 @@ In this lesson will will first practise aggregation pipeline and mapReduce.
 
 ### Part 1 - Aggregation pipeline
 
-Import the `universities.json` from data-sets folder.
+0. Import the `universities.json` from data-sets folder.
 
+
+```
+mongoimport --db put_your_name_here --collection universities --authenticationDatabase admin --username admin --password saxophone --drop --file universities.json --jsonArray
+```
 
 1. Write an aggregation query to match universities who are in Salmanaca, Spain.
 
